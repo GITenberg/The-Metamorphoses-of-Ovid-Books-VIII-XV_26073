@@ -1,0 +1,106 @@
+
+/* style sheet NOT identical to Books I-VII */
+
+body {margin-left: 10%; margin-right: 10%;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 50%;}
+hr.tiny {width: 20%;}
+
+div.intro, div.maintext, div.titlepage {margin-top: 3em;
+margin-bottom: 3em;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: .5em;
+margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+h4 {font-size: 120%;}
+h4.chapter {margin-top: 4em;}
+h4.section {margin-top: 2em;}
+h5 {font-size: 100%;}
+h6 {font-size: 85%;}
+div.maintext h6 {margin-top: 1em;}
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+p.synopsis {font-size: 95%; margin-left: 1em; text-indent: -1em;}
+p.explanation {font-size: 95%; margin-left: 1em; margin-right: 1em;}
+p.inset {padding-left: 2em;}
+
+/* footnotes & tags */
+
+div.footnote {margin: 1em 0em 1em 2em;}
+p.footnote {margin: 1em 0em 1em 2em; font-size: 95%; line-height: 1.1em;}
+div.footnote p {font-size: 95%; margin-top: .5em; line-height: 1.1em;}
+
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+line-height: 0em;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+
+td {vertical-align: top; text-align: left; padding: .1em ;}
+th {vertical-align: top; text-align: center; font-weight: bold;
+font-style: normal;}
+
+td.center {text-align: center;}
+
+table.toc {margin-top: 2em; font-family: sans-serif; font-size: 95%;
+border-spacing: 2em .5em;}
+table.toc p {margin-top: .5em; margin-left: 1em; text-indent: -1em;
+line-height: 1.5;}
+table.toc a {text-decoration: none;}
+
+
+/* text formatting */
+
+.smallcaps {font-variant: small-caps;}
+.smallroman {text-transform: lowercase; font-variant: small-caps;}
+.smaller {font-size: 88%;}
+.extended {letter-spacing: 0.2em;}
+
+/* greek original or translit */
+
+span.greek {border-bottom: 1px dotted #666;}
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+span.pagenum, span.linenum {position: absolute; font-weight: normal;
+font-style: normal; text-indent: 0em; width: 9%; color: #333;
+background-color: inherit;}
+span.pagenum {font-size: 88%; text-align: right; right: 2%;}
+p.explanation span.pagenum {font-size: 92%;}
+
+span.linenum {font-size: 75%; font-variant: small-caps;
+text-align: left; left: .5em;}
+p.explanation span.linenum {font-size: 80%;}
+
+span.linenum:after {content: "]";}
+
+/* Transcriber's Note */
+
+.mynote, .endnote {font-family: sans-serif; font-size: 90%;}
+.mynote {margin: 1em 5%; background-color: #DDE; color: #000;}
+
+div.endnote {margin: 1em; padding: .5em 1em 1em;
+background-color: #EEF; color: #000; border: 3px ridge #99C;}
+div.mynote {padding: .5em 1em 1em;}
+p.mynote {padding: 1em;}
+
+div.endnote table, div.endnote td {font-size: inherit;}
+div.endnote h5 {font-weight: bold;}
+
+div.mynote a, div.contents a {text-decoration: none;}
+
+div.contents p {font-family: sans-serif; font-size: 90%;
+margin-left: 1.5em; text-indent: -1.5em; line-height: 1.33em;}
+
