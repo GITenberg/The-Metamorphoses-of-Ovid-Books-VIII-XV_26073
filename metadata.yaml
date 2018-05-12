@@ -1,0 +1,41 @@
+_repo: The-Metamorphoses-of-Ovid-Books-VIII-XV_26073
+_version: 0.1.0
+contributor:
+  translator:
+    agent_name: Riley, Henry T. (Henry Thomas)
+    alias: Riley, Henry Thomas
+    birthdate: 1816
+    deathdate: 1878
+    gutenberg_agent_id: '8085'
+    url: http://www.gutenberg.org/2009/agents/8085
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Ovid
+    alias: Ovidius Naso, Publius
+    birthdate: -43
+    deathdate: 17
+    gutenberg_agent_id: '2868'
+    url: http://www.gutenberg.org/2009/agents/2868
+    wikipedia: http://en.wikipedia.org/wiki/Ovid
+description: ''
+gutenberg_bookshelf: Best Books Ever Listings
+gutenberg_issued: '2008-07-16'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '26073'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Latin poetry -- Translations into English'
+- !lcsh 'Fables, Latin -- Translations into English'
+- !lcsh 'Mythology, Classical -- Poetry'
+- !lcc 'PA'
+- !lcsh 'Metamorphosis -- Mythology -- Poetry'
+- !lcsh 'Classical literature'
+title: The Metamorphoses of Ovid, Books VIII-XV
+url: http://www.gutenberg.org/ebooks/26073
